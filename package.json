@@ -1,7 +1,7 @@
 {
   "name": "video-games-app",
   "version": "1.0.0",
-  "description": "A Video Games Collection App built using Reactjs",
+  "description": "A Reactjs app consists of my favorite video games.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
