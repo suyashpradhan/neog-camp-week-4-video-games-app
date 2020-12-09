@@ -1,5 +1,7 @@
-# Video Games App
+# The Games Store
 
-## A Reactjs app consists of my favorite video games built using codesandbox
+## Video games recommendation app build using reactjs on codesandbox platform and deployed using netlify.
 
-App Link [!https://vxwu0.csb.app/]
+![poster](src/poster.png)
+
+### App Link [!https://video-games-app.netlify.app/]
