@@ -211,35 +211,6 @@ export let database = {
       rating: "8/10",
       poster:
         "https://gmedia.playstation.com/is/image/SIEPDC/only-on-playstation-ghost-of-tsushima-two-column-wide-01-ps4-en-21may19?$native$"
-    },
-    {
-      title: "Grand Theft Auto 5",
-      description:
-        "Grand Theft Auto V offers players the option to explore the award-winning world of Los Santos and Blaine County ",
-      developer: "Rockstar North",
-      availableOn: "Playstation, XBOX, PC",
-      rating: "9.4/10",
-      poster:
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1592866696"
-    },
-    {
-      title: "Fall Guys: Ultimate Knockout",
-      description:
-        "Fall Guys is a massively multiplayer party game with up to 60 players online in a free-for-all struggle through round after round of escalating chaos until one victor remains!",
-      developer: "Mediatonic",
-      availableOn: "Playstation, XBOX, PC",
-      rating: "9.2/10",
-      poster:
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/1097150/header_alt_assets_0.jpg?t=1606255678"
-    },
-    {
-      title: "Getting Over It with Bennett Foddy",
-      description: "A game I made for a certain kind of person. To hurt them. ",
-      developer: "Bennett Foddy",
-      availableOn: "Playstation, XBOX, PC",
-      rating: "5/10",
-      poster:
-        "https://cdn.cloudflare.steamstatic.com/steam/apps/240720/header.jpg?t=1577387341"
     }
   ],
   "XBOX Exclusive": [
