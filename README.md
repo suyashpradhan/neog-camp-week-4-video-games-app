@@ -4,6 +4,6 @@
 
 ![poster](src/poster.png)
 
-### App Link [!https://video-games-app.netlify.app/]
+### App Link [!https://vxwu0.csb.app/]
 
 ### Codesandbox Link: [!https://codesandbox.io/s/video-games-app-vxwu0]
