@@ -1,12 +1,17 @@
+//Importing Modules
 import React, { useState } from "react";
 import { database } from "./Database.js";
 import "./styles.css";
 
+//Converting Object into Array of Keys
 let databaseArray = Object.keys(database);
 
+//Main Component
 export default function App() {
+  //App State
   const [selectedGame, setSelectedGame] = useState("All Games");
 
+  //Click Handler Function
   function gameClickHandler(game) {
     setSelectedGame(game);
   }
@@ -21,6 +26,7 @@ export default function App() {
         <div className="wrapper">
           <ul className="games-collection">
             {databaseArray.map((game, index) => {
+              //Looping through our array of keys
               return (
                 <li
                   onClick={() => gameClickHandler(game)}
@@ -34,6 +40,7 @@ export default function App() {
           </ul>
 
           {database[selectedGame].map((game) => {
+            //Getting Game Info
             return (
               <div className="game">
                 <div className="left-wrapper">
@@ -57,7 +64,7 @@ export default function App() {
         <footer>
           <div className="wrapper">
             <h2 className="footer-text">
-              <a href="https://github.com/suyashpradhan" target="_blank">
+              <a href="https://github.com/suyashpradhan">
                 <img
                   src="https://www.flaticon.com/svg/static/icons/svg/733/733609.svg"
                   alt="icon"
