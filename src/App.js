@@ -38,11 +38,10 @@ export default function App() {
               );
             })}
           </ul>
-
-          {database[selectedGame].map((game) => {
+          {database[selectedGame].map((game, index) => {
             //Getting Game Info
             return (
-              <div className="game">
+              <div key={index} className="game">
                 <div className="left-wrapper">
                   <img src={game.poster} className="poster" alt="poster"></img>
                 </div>
